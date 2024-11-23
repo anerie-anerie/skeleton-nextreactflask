@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react';
 
 function Index() {
-
   //message state variable set to loading at first then once becomes data.message once retrieved
   const [message, setMessage] = useState("loading");
   //const [people, setPeople] = useState([]);
